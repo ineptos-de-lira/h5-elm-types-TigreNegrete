@@ -61,6 +61,6 @@ airportAction list =
         x :: xs ->
             airplaneScheduleAction x :: airportAction xs
 
-
+airplaneStatuses : List AirplaneStatus
 airplaneStatuses =
     [ OnTime, Boarding, Delayed, Cancelled ]
